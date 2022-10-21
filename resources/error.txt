@@ -1,3 +1,0 @@
-Ya existe el subdirectorio o el archivo nuevo.
-"dirrr" no se reconoce como un comando interno o externo,
-programa o archivo por lotes ejecutable.

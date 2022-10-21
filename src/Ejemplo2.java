@@ -1,18 +1,9 @@
-import java.io.File;
-
 public class Ejemplo2 {
-    public static void main(String[] args) throws Exception {
-        ProcessBuilder pb = new ProcessBuilder("mkdir", "CarpetaPrueba");
-    //   pb.directory(new File("."));
-        pb.directory(new File("C:\\Users\\miche\\Desktop"));
-        Process proceso;
-        try {
-            proceso = pb.start();
+    public static void main(String[] args) {
+        System.out.println("Hola! Soy un proceso");
 
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        new Ejemplo2Runnable();
+        System.out.println("Adios! Soy un proceso");
 
     }
 }
-
